@@ -118,5 +118,75 @@ public class MyNotes {
 //
 //
 //
-//
+//================================================================================================================================
+	// Session 24 : X-Path
+	//
+	// Ancestor
+	// |
+	// Parent
+	// |
+//Preceding-Sibling < Self-node > Following-Sibling
+	// |
+	// Child
+	// |
+	// Descendant
+//================================================================================================================================
+	// Session 26 : WebDriver Methods
+	//
+	// 1] get methods
+	// 2] conditional methods
+	// 3] browser methods
+	// 4] navigational methods
+	// 5] wait methods
+	//
+	//
+	// 1] get methods ==> we can access this methods through webdriver instance
+	// ==> all get methods related to web page...not related to webElement
+	// get("url") ==> open url in browser.
+	// getTitle() ==> return the title of page
+	// getCurrentUrl() ==> return url of current page
+	// getPageSource() ==> return source code of page
+	// getWindowHandle() ==> returns ID of single browser window
+	// getWindowHandles() ==> returns ID's of multiple browser windows
+	//
+	//
+	// 2] conditional methods ==> access these commands through WebElement
+	//                        ==> returns boolean value (true/false)
+	//   isDisplayed(); ==> we can check display of the element
+	//   isEnabled(); ==> we can check enable/disable status of the element/operational element
+	//   isSelected();  ==> apply on checkbox and radio button
+	//
+	//
+	// 3] browser methods 
+	// quit(); ==> close single browser window wherever the driver is focused
+	// close(); ==> close all the browser windows
+	//
+	//
+//================================================================================================================================
+    // Session 27 : WebDriver Methods	
+	//
+	// 4] wait methods or commands
+	//
+	// Synchronization :
+	// almost every automation tool face the synchronization promblem
+    // i. e when u run automation test case, then sometime not able to find any webelement that time u will get
+	// exceptions such as ElementNotFoundException , NoSuchFoundException etc i.e called synchronization promblem
+	// speed of application is slow and speed of execution is faster than response of application i.e synchronize issue
+	// 
+	// *] Implicit Wait
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 }
